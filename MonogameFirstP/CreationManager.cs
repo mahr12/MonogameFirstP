@@ -42,7 +42,7 @@ namespace MonogameFirstP
             //if(timer >10)
             //{
             //    timer = 0;
-                Charactars(1);
+                //Charactars(6);
             //}
         }
     }

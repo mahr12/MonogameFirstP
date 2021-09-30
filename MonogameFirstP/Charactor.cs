@@ -17,7 +17,7 @@ namespace MonogameFirstP
         Vector2 startPosition;
         //Vector2 movingPosition;
         //Rectangle rectangle;
-        float speed;
+        //float speed;
         string imageKey;
         public Charactor(/*Vector2 startPosition, Vector2 movingPosition, float speed, Rectangle rectangle*/)
         {
@@ -27,7 +27,7 @@ namespace MonogameFirstP
             //this.startPosition = startPosition;
             //this.speed = speed /100;
             startPosition = new Vector2(200, 450);
-            speed = 1;
+            //speed = 1;
         }
 
         public override void Update(GameTime gameTime)
@@ -50,13 +50,13 @@ namespace MonogameFirstP
             //    movingPosition.Y *= -1;
             //}
             //startPosition.Y = speed;
-            if (startPosition.Y == 350)
-            {
-                while (startPosition.Y != 450)
-                {
-                    startPosition.Y += speed * (float)gameTime.ElapsedGameTime.Milliseconds;
-                }
-            }
+            //if (startPosition.Y == 350)
+            //{
+            //    while (startPosition.Y != 450)
+            //    {
+            //        startPosition.Y += speed * (float)gameTime.ElapsedGameTime.Milliseconds;
+            //    }
+            //}
             //speed += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
             if (Keyboard.GetState().IsKeyDown(Keys.W))
             {

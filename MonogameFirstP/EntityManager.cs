@@ -38,20 +38,20 @@ namespace MonogameFirstP
 
 
 
-        public static void Collision(GameTime gameTime)
-        {
-            Entity stempEntity = firstEntity;
-            while (stempEntity != null)
-            {
-                stempEntity = stempEntity.nextEntity;
-                while (stempEntity != null)
-                {
-                    //if()
-                    Console.WriteLine("Collision");
-                    stempEntity = stempEntity.nextEntity;
-                }
-            }
-        }
+        //public static void Collision(GameTime gameTime)
+        //{
+        //    Entity stempEntity = firstEntity;
+        //    while (stempEntity != null)
+        //    {
+        //        stempEntity = stempEntity.nextEntity;
+        //        while (stempEntity != null)
+        //        {
+        //            //if()
+        //            Console.WriteLine("Collision");
+        //            stempEntity = stempEntity.nextEntity;
+        //        }
+        //    }
+        //}
         public static void Update(GameTime gameTime)
         {
             Entity stempEntity = firstEntity;

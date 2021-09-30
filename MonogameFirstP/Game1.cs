@@ -31,7 +31,7 @@ namespace MonogameFirstP
         {
             GraphicManager.spriteBatch = new SpriteBatch(GraphicsDevice);
             GraphicManager.LoadTexture2D();
-            CreationManager.Update();
+            CreationManager.Charactars(1);
 
             // TODO: use this.Content to load your game content here
         }
@@ -43,7 +43,7 @@ namespace MonogameFirstP
 
             // TODO: Add your update logic here
             EntityManager.Update(gameTime);
-            EntityManager.Collision(gameTime);
+            //EntityManager.Collision(gameTime);
             base.Update(gameTime);
         }
 

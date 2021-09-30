@@ -32,17 +32,17 @@ namespace MonogameFirstP
             }
         }
 
-        public int UniqueId
-        {
-            get
-            {
-                return uniqueId;
-            }
-            set
-            {
-                uniqueId = value;
-            }
-        }
+        //public int UniqueId
+        //{
+        //    get
+        //    {
+        //        return uniqueId;
+        //    }
+        //    set
+        //    {
+        //        uniqueId = value;
+        //    }
+        //}
 
         public virtual void Update(GameTime gameTime)
         {
