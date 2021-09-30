@@ -22,18 +22,18 @@ namespace MonogameFirstP
 
         public static void AddToEntity(Entity addTo)
         {
-            //uniquIdCounter++;
-            //addTo.uniqueId = uniquIdCounter;
-            
-            //if (firstEntity != null)
-            //{
-            //    lastEntity.nextEntity = addTo;
-            //}
-            //else
-            //{
-            //    firstEntity = addTo;
-            //}
-            //lastEntity = addTo;
+            uniquIdCounter++;
+            addTo.uniqueId = uniquIdCounter;
+
+            if (firstEntity != null)
+            {
+                lastEntity.nextEntity = addTo;
+            }
+            else
+            {
+                firstEntity = addTo;
+            }
+            lastEntity = addTo;
         }
 
 

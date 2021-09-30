@@ -18,6 +18,8 @@ namespace MonogameFirstP
             gameSprite = new Dictionary<string, Texture2D>();
             graphigcsDeviceManager = new GraphicsDeviceManager(game1);
             myGame = game1;
+            graphigcsDeviceManager.PreferredBackBufferWidth = 1280;
+            graphigcsDeviceManager.PreferredBackBufferHeight = 720;
         }
 
 
